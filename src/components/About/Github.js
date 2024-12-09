@@ -20,7 +20,7 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
         <GitHubCalendar 
-        username={process.env.REACT_APP_GITHUB_USERNAME}
+        username="anukool23"
         token={process.env.REACT_APP_GITHUB_TOKEN}
          theme="forest"
         // theme="custom" // must be specified for custom theme to be applied 
