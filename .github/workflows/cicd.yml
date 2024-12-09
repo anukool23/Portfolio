@@ -28,4 +28,4 @@ jobs:
         run: docker rm -f reactContainer
       - name: Run docker container
         # run: docker run -d -p 80:80 --name reactContainer aanukool23/portfolio  
-        run: docker run -d -p 80:80 --name reactContainer \ -e REACT_APP_GITHUB_TOKEN=${{ secrets.REACT_APP_GITHUB_TOKEN }} \anukool23/portfolio 
+        run: docker run -d -p 80:80 --name reactContainer -e REACT_APP_GITHUB_TOKEN=${{ secrets.REACT_APP_GITHUB_TOKEN }} anukool23/portfolio:latest
